@@ -42,26 +42,27 @@ img{
 header {
     padding: 15px 50px;
     background-color: rgb(204, 231, 231);
-}
 
-header .logo{
-    text-transform: uppercase;
-    font-size: 29px;
-    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav {
-    float: right;
-    width: 30%;
+    width: auto;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
     display: flex;
-    justify-content:space-between;
+    gap: 50px;
+    align-items: center;
 }
 
-
+img {
+    width: 80px;
+    height: 80px;
+}
 /* настройки самой вкладки */
 
 
@@ -75,6 +76,7 @@ header nav ul{
     display: flex;
     flex-direction: column;
     width: 500px;
+    margin: 10px;
 }
 
 /* Эффект при наведении */
